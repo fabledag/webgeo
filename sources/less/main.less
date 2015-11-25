@@ -1,0 +1,195 @@
+@red-geo: #d70522;
+@red-dark: #a60522;
+@lighter-gray: #d3d3d3;
+@medium-gray: #848b8c;
+@dark-gray: #242526;
+@black-geo: #0b0b0b;
+@white: #fff;
+
+
+
+
+*{
+  outline: none;
+}
+
+a{
+  display: block;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: @black-geo;
+  margin: 0;
+  padding: 0;
+}
+
+img{
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.container{
+  width: 100%;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+}
+
+.main-container{
+  width: 100%;
+  position: relative;
+  max-width: 1200px;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  .content{
+    width: 100%;
+  }
+}
+
+.second-container{
+  width: 50%;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+
+.col-2{
+  width: 50%;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  margin: 0 0 0 -6px;
+  padding: 0;
+}
+
+
+
+.half-container{
+  width: 50%;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  margin: 0 0 0 -5px;
+  padding: 0;
+}
+
+
+
+.btn-general{
+  width: 300px;
+  margin: 0 auto;
+  position: relative;
+  display: block;
+  border-radius: 15px;
+  background: @red-geo;
+  color: white;
+  border: none;
+  font-size: 23px;
+  padding: 10px 0;
+  position: relative;
+  cursor: pointer;
+  .icono{
+    background: url(../sources/images/spriteIconWebgeo.png) no-repeat -8px -10px;
+    display: inline-block;
+    position: relative;
+    width: 46px;
+    height: 46px;
+    border: none;
+    margin-left: -20px;
+  }
+  span{
+    vertical-align: top;
+    display: inline-block;
+    padding: 10px 0 0 10px;
+  }
+  &:hover{
+    background-color: #6f0919;
+    .icono{
+      background: url(../sources/images/spriteIconWebgeo.png) no-repeat -8px -56px;
+    }
+  }
+}
+
+
+h1{
+  font-size: 35px;
+  font-weight: 600;
+  color: @white;
+  display: inline-block;
+  position: relative;
+  width: 25%;
+  text-transform: uppercase;
+  padding-right: 180px;
+  b{
+    font-weight: 700;
+    color: @red-geo;
+  }
+}
+
+h2{
+  font-size: 80px;
+  font-weight: 700;
+  color: @medium-gray;
+  text-transform: uppercase;
+  line-height: 65px;
+
+  span{
+    color: @red-geo;
+  }
+}
+
+.titulo{
+  margin: 0 auto;
+  width: 40%;
+  margin-bottom: 60px;
+  border-bottom: 8px solid @red-geo;
+  h3{
+    font-size: 50px;
+    font-weight: 300;
+    color: @lighter-gray;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+  }
+}
+
+h4{
+  font-size: 40px;
+  margin: 20px 0;
+  font-weight: 600;
+  color: @lighter-gray;
+  text-transform: uppercase;
+  span{
+    color: @red-geo;
+  }
+}
+
+h5{
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: @lighter-gray;
+}
+
+@import "mixins";
+@import "header";
+@import "servicios";
+@import "portafolio";
+@import "contacto";
+@import "footer";

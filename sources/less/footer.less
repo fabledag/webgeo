@@ -1,0 +1,119 @@
+footer{
+  background: @dark-gray;
+  color: white;
+  .col-2{
+    &:first-child{
+      h5{
+        margin: 20px 0;
+      }
+      .col-skills{
+        width: 50%;
+      }
+      ul.skills{
+        display: inline-block;
+        width: 30%;
+        vertical-align: top;
+        margin-right: 10px;
+        li{
+          font-size: 17px;
+          font-weight: 300;
+          color: @medium-gray;
+          line-height: 2em;
+        }
+      }
+    }
+    &:nth-child(2){
+      max-width: 400px;
+      padding-left: 205px;
+      ul.social-media{
+        margin-top: 20px;
+        li.social{
+          cursor: pointer;
+          width: 50px;
+          height: 50px;
+          display: inline-block;
+          background: url(../sources/images/spriteIconWebgeo.png) no-repeat -10px -10px;
+          text-align: right;
+          margin: 5px 10px;
+          &.facebook{
+            background-position: -200px -10px;
+            &:hover{
+              background-position: -200px -60px;
+            }
+          }
+          &.linkedin{
+            background-position: -250px -10px;
+            &:hover{
+              background-position: -250px -60px;
+            }
+          }
+          &.instagram{
+            background-position: -300px -10px;
+            &:hover{
+              background-position: -300px -60px;
+            }
+          }
+          &.skype{
+            background-position: -350px -10px;
+            &:hover{
+              background-position: -350px -60px;
+            }
+          }
+        }
+      }
+      ul.data-contact{
+        margin-top: 40px;
+        li{
+          padding-left: 20px;
+          margin-bottom: 10px;
+          .icon{
+            width: 40px;
+            height: 40px;
+            background: url(../sources/images/spriteIconWebgeo.png) no-repeat -10px -10px;
+            display: inline-block;
+            &.mail{
+              background-position: -74px -10px;
+            }
+            &.tel{
+              background-position: -114px -10px;
+            }
+            &.adress{
+              background-position: -154px -10px;
+            }
+          }
+          .data{
+            font-size: 18px;
+            font-weight: 300;
+            display: inline-block;
+            width: 320px;
+            vertical-align: top;
+            padding: 5px 0 0 10px;
+            color: @medium-gray;
+            a{
+              &:hover{
+                color: @red-geo;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .logos{
+    ul.logos-footer{
+      li.logos{
+        width: 193px;
+        display: inline-block;
+        vertical-align: top;
+        height: 120px;
+        cursor: pointer;
+        img{
+          opacity: 0.5;
+          &:hover{
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}

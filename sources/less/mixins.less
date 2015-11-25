@@ -1,0 +1,15 @@
+.transition (@transition) {
+  -webkit-transition: @transition;
+  -moz-transition:    @transition;
+  -ms-transition:     @transition;
+  -o-transition:      @transition;
+}
+
+.gradient (@startColor: rgba(59,60,63,1), @endColor: rgba(36,37,38,1)) {
+  background-color: @startColor;
+  background: -webkit-gradient(linear, left top, left bottom, from(@startColor), to(@endColor));
+  background: -webkit-linear-gradient(top, @startColor, @endColor);
+  background: -moz-linear-gradient(top, @startColor, @endColor);
+  background: -ms-linear-gradient(top, @startColor, @endColor);
+  background: -o-linear-gradient(top, @startColor, @endColor);
+}

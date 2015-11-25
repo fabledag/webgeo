@@ -1,0 +1,428 @@
+* {
+  outline: none;
+}
+a {
+  display: block;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #0b0b0b;
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+.container {
+  width: 100%;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+}
+.main-container {
+  width: 100%;
+  position: relative;
+  max-width: 1200px;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}
+.main-container .content {
+  width: 100%;
+}
+.second-container {
+  width: 50%;
+  max-width: 650px;
+  margin: 0 auto;
+}
+.col-2 {
+  width: 50%;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  margin: 0 0 0 -6px;
+  padding: 0;
+}
+.half-container {
+  width: 50%;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  margin: 0 0 0 -5px;
+  padding: 0;
+}
+.btn-general {
+  width: 300px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 15px;
+  background: #d70522;
+  color: white;
+  border: none;
+  font-size: 23px;
+  padding: 10px 0;
+  position: relative;
+  cursor: pointer;
+}
+.btn-general .icono {
+  background: url(../sources/images/spriteIconWebgeo.png) no-repeat -8px -10px;
+  display: inline-block;
+  position: relative;
+  width: 46px;
+  height: 46px;
+  border: none;
+  margin-left: -20px;
+}
+.btn-general span {
+  vertical-align: top;
+  display: inline-block;
+  padding: 10px 0 0 10px;
+}
+.btn-general:hover {
+  background-color: #6f0919;
+}
+.btn-general:hover .icono {
+  background: url(../sources/images/spriteIconWebgeo.png) no-repeat -8px -56px;
+}
+h1 {
+  font-size: 35px;
+  font-weight: 600;
+  color: #fff;
+  display: inline-block;
+  position: relative;
+  width: 25%;
+  text-transform: uppercase;
+  padding-right: 180px;
+}
+h1 b {
+  font-weight: 700;
+  color: #d70522;
+}
+h2 {
+  font-size: 80px;
+  font-weight: 700;
+  color: #848b8c;
+  text-transform: uppercase;
+  line-height: 65px;
+}
+h2 span {
+  color: #d70522;
+}
+.titulo {
+  margin: 0 auto;
+  width: 40%;
+  margin-bottom: 60px;
+  border-bottom: 8px solid #d70522;
+}
+.titulo h3 {
+  font-size: 50px;
+  font-weight: 300;
+  color: #d3d3d3;
+  margin: 0;
+  text-align: center;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+h4 {
+  font-size: 40px;
+  margin: 20px 0;
+  font-weight: 600;
+  color: #d3d3d3;
+  text-transform: uppercase;
+}
+h4 span {
+  color: #d70522;
+}
+h5 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #d3d3d3;
+}
+header {
+  height: auto;
+  background: #3b3c3f;
+  background: -moz-linear-gradient(-45deg, #3b3c3f 0%, #313233 29%, #242526 71%, #242526 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #3b3c3f), color-stop(29%, #313233), color-stop(71%, #242526), color-stop(100%, #242526));
+  background: -webkit-linear-gradient(-45deg, #3b3c3f 0%, #313233 29%, #242526 71%, #242526 100%);
+  background: -o-linear-gradient(-45deg, #3b3c3f 0%, #313233 29%, #242526 71%, #242526 100%);
+  background: -ms-linear-gradient(-45deg, #3b3c3f 0%, #313233 29%, #242526 71%, #242526 100%);
+  background: linear-gradient(135deg, #3b3c3f 0%, #313233 29%, #242526 71%, #242526 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3b3c3f', endColorstr='#242526', GradientType=1);
+}
+header nav {
+  display: inline-block;
+  position: relative;
+  padding: 5px 0 0 0;
+}
+header nav ul li {
+  display: inline-block;
+}
+header nav ul li a {
+  color: #d3d3d3;
+  text-transform: uppercase;
+  padding: 0 20px;
+  font-size: 20px;
+  font-weight: 300;
+}
+header nav ul li a:hover {
+  color: #d70522;
+}
+header #banner {
+  color: white;
+}
+header #banner p {
+  padding: 30px 0;
+}
+header #banner .ilustration {
+  padding-top: 70px;
+}
+#servicios {
+  background-image: url(../sources/images/background.png);
+  padding: 90px 0;
+}
+#servicios h3 {
+  margin: 40px 0 0 0;
+}
+#servicios .col-3 {
+  width: 33%;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  margin: 0 0 0 -1px;
+  padding: 0;
+  color: #d3d3d3;
+  text-align: center;
+}
+#servicios .col-3 p {
+  font-size: 20px;
+  padding: 0 40px 60px 40px;
+  color: #848b8c;
+}
+#servicios .col-3 .imagen-servicio {
+  background: url(../sources/images/spriteIconWebgeo.png) no-repeat;
+  margin: 0 auto;
+  display: block;
+  height: 150px;
+}
+#servicios .col-3 .imagen-servicio.img-servicio01 {
+  background-position: -10px -110px;
+  width: 210px;
+}
+#servicios .col-3 .imagen-servicio.img-servicio02 {
+  background-position: -255px -123px;
+  width: 140px;
+}
+#servicios .col-3 .imagen-servicio.img-servicio03 {
+  background-position: -443px -122px;
+  width: 185px;
+}
+#portafolio {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+#portafolio ul {
+  margin: 7px 0 0 7px;
+}
+#portafolio ul li {
+  width: 50%;
+  display: inline-block;
+  margin: -7px 0 0 -7px;
+  padding: 0;
+  position: relative;
+}
+#portafolio ul li .hover {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+#portafolio ul li:hover .hover {
+  display: block;
+}
+#portafolio ul li:hover .hover img {
+  width: 35%;
+  margin: 0 auto;
+  padding-top: 27%;
+  display: block;
+}
+#contact {
+  background: #a60522;
+  background: radial-gradient(#d80522, #a70522);
+  color: #fff;
+  padding: 30px 0;
+  margin-top: -7px;
+}
+#contact .titulo {
+  border-bottom: 8px solid #242526;
+}
+#contact h3 {
+  color: white;
+}
+#contact p {
+  font-size: 22px;
+  font-weight: 300;
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+#contact p span {
+  font-weight: 700;
+}
+#contact form {
+  padding: 30px 0;
+  margin: 0 auto;
+  width: 80%;
+}
+#contact form input,
+#contact form textarea {
+  background: #d3253f;
+  border: none;
+  text-indent: 20px;
+  font-size: 20px;
+  font-weight: 300;
+  color: white !important;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+#contact form textarea {
+  height: 180px !important;
+  padding-top: 10px;
+}
+#contact form ::-webkit-input-placeholder {
+  color: white;
+}
+#contact .btn-general {
+  background: #242526;
+  padding: 20px 0;
+}
+#contact .btn-general:hover {
+  background: white;
+  color: #a60522;
+}
+footer {
+  background: #242526;
+  color: white;
+}
+footer .col-2:first-child h5 {
+  margin: 20px 0;
+}
+footer .col-2:first-child .col-skills {
+  width: 50%;
+}
+footer .col-2:first-child ul.skills {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  margin-right: 10px;
+}
+footer .col-2:first-child ul.skills li {
+  font-size: 17px;
+  font-weight: 300;
+  color: #848b8c;
+  line-height: 2em;
+}
+footer .col-2:nth-child(2) {
+  max-width: 400px;
+  padding-left: 205px;
+}
+footer .col-2:nth-child(2) ul.social-media {
+  margin-top: 20px;
+}
+footer .col-2:nth-child(2) ul.social-media li.social {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background: url(../sources/images/spriteIconWebgeo.png) no-repeat -10px -10px;
+  text-align: right;
+  margin: 5px 10px;
+}
+footer .col-2:nth-child(2) ul.social-media li.social.facebook {
+  background-position: -200px -10px;
+}
+footer .col-2:nth-child(2) ul.social-media li.social.facebook:hover {
+  background-position: -200px -60px;
+}
+footer .col-2:nth-child(2) ul.social-media li.social.linkedin {
+  background-position: -250px -10px;
+}
+footer .col-2:nth-child(2) ul.social-media li.social.linkedin:hover {
+  background-position: -250px -60px;
+}
+footer .col-2:nth-child(2) ul.social-media li.social.instagram {
+  background-position: -300px -10px;
+}
+footer .col-2:nth-child(2) ul.social-media li.social.instagram:hover {
+  background-position: -300px -60px;
+}
+footer .col-2:nth-child(2) ul.social-media li.social.skype {
+  background-position: -350px -10px;
+}
+footer .col-2:nth-child(2) ul.social-media li.social.skype:hover {
+  background-position: -350px -60px;
+}
+footer .col-2:nth-child(2) ul.data-contact {
+  margin-top: 40px;
+}
+footer .col-2:nth-child(2) ul.data-contact li {
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+footer .col-2:nth-child(2) ul.data-contact li .icon {
+  width: 40px;
+  height: 40px;
+  background: url(../sources/images/spriteIconWebgeo.png) no-repeat -10px -10px;
+  display: inline-block;
+}
+footer .col-2:nth-child(2) ul.data-contact li .icon.mail {
+  background-position: -74px -10px;
+}
+footer .col-2:nth-child(2) ul.data-contact li .icon.tel {
+  background-position: -114px -10px;
+}
+footer .col-2:nth-child(2) ul.data-contact li .icon.adress {
+  background-position: -154px -10px;
+}
+footer .col-2:nth-child(2) ul.data-contact li .data {
+  font-size: 18px;
+  font-weight: 300;
+  display: inline-block;
+  width: 320px;
+  vertical-align: top;
+  padding: 5px 0 0 10px;
+  color: #848b8c;
+}
+footer .col-2:nth-child(2) ul.data-contact li .data a:hover {
+  color: #d70522;
+}
+footer .logos ul.logos-footer li.logos {
+  width: 193px;
+  display: inline-block;
+  vertical-align: top;
+  height: 120px;
+  cursor: pointer;
+}
+footer .logos ul.logos-footer li.logos img {
+  opacity: 0.5;
+}
+footer .logos ul.logos-footer li.logos img:hover {
+  opacity: 1;
+}
