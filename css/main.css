@@ -66,6 +66,7 @@ a {
 .btn-general {
   width: 300px;
   margin: 0 auto;
+  position: relative;
   display: block;
   border-radius: 15px;
   background: #d70522;
@@ -73,7 +74,7 @@ a {
   border: none;
   font-size: 23px;
   padding: 10px 0;
-  position: relative;
+  transition: all 0.5s ease;
   cursor: pointer;
 }
 .btn-general .icono {
@@ -245,21 +246,30 @@ header #banner .ilustration {
   position: relative;
 }
 #portafolio ul li .hover {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.7);
   color: white;
   position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  display: none;
+  opacity: 0.3;
+  transform-origin: 100% 0%;
+  transition: all 0.2s ease-in-out 0.1s;
 }
-#portafolio ul li:hover .hover {
-  display: block;
-}
-#portafolio ul li:hover .hover img {
+#portafolio ul li .hover img {
   width: 35%;
   margin: 0 auto;
   padding-top: 27%;
   display: block;
+  opacity: 0;
+  transition: all 0.2s ease-in-out 0.2s;
+}
+#portafolio ul li:hover .hover {
+  opacity: 1;
+}
+#portafolio ul li:hover .hover img {
+  opacity: 0.9;
 }
 #contact {
   background: #a60522;
@@ -312,6 +322,7 @@ header #banner .ilustration {
 #contact .btn-general {
   background: #242526;
   padding: 20px 0;
+  transition: all 0.5s ease;
 }
 #contact .btn-general:hover {
   background: white;
@@ -409,6 +420,7 @@ footer .col-2:nth-child(2) ul.data-contact li .data {
   vertical-align: top;
   padding: 5px 0 0 10px;
   color: #848b8c;
+  transition: all 0.5s ease;
 }
 footer .col-2:nth-child(2) ul.data-contact li .data a:hover {
   color: #d70522;
@@ -422,6 +434,7 @@ footer .logos ul.logos-footer li.logos {
 }
 footer .logos ul.logos-footer li.logos img {
   opacity: 0.5;
+  transition: all 0.5s ease;
 }
 footer .logos ul.logos-footer li.logos img:hover {
   opacity: 1;
